@@ -15,11 +15,13 @@
         android:textSize="20sp"/>
 
     <CheckBox
+        android:id="@+id/check_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/check1"/>
 
     <LinearLayout
+        android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
@@ -32,31 +34,36 @@
         android:text="@string/text2"
         android:textSize="20sp"/>
     <RadioGroup
+        android:id="@+id/rg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
             <RadioButton
+                android:id="@+id/radio_dog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/radio_dog"/>
             <RadioButton
+                android:id="@+id/radio_cat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/radio_cat"/>
             <RadioButton
+                android:id="@+id/radio_rabbit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/radio_rabbit"/>
         </RadioGroup>
         <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_done"/>
+            android:id="@+id/btn_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_done"/>
         <ImageView
+            android:id="@+id/imgv"
             android:layout_width="400dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
             android:scaleType="fitXY"
-
             android:src="@drawable/dog"/>
 
     </LinearLayout>
